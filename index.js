@@ -4,7 +4,7 @@ import movieRouter from "./routers/movieRouter.js";
 import quoteRouter from "./routers/quoteRouter.js";
 
 const app = express(); //initialize an express instance
-const port = 3000; // defines a port
+const port = process.env.PORT || 3000; // defines a port
 
 //middleware: any endpoint parses json request bodies, so json can be interpreted
 app.use(express.json());
