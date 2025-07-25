@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
+  },
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Simple PI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "author": "Lukas",
+  "license": "ISC"
+}
