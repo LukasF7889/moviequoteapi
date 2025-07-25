@@ -91,4 +91,4 @@ A simple REST API to manage movies and their quotes — built to practice MongoD
 
 ---
 
-This API is ideal for practice with REST, Mongoose, and handling relations between documents.
+I used this API for practicing backend technologies and RESTful APIs
