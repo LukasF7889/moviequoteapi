@@ -62,7 +62,7 @@ A simple REST API to manage movies and their quotes — built to practice MongoD
 ### 7. Get a random quote
 
 - **Method:** GET  
-- **Endpoint:** `/quotes/random`  
+- **Endpoint:** `/quotes/`  
 - **Description:** Retrieves a single random quote from the database, including its associated movie.
 
 ---
