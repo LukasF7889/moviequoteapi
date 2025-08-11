@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import "./db/dbConnection.js";
 import movieRouter from "./routers/movieRouter.js";
 import quoteRouter from "./routers/quoteRouter.js";
@@ -8,6 +9,7 @@ const port = process.env.PORT || 3000; // defines a port
 
 //middleware: any endpoint parses json request bodies, so json can be interpreted
 app.use(express.json());
+app.use(cors());
 
 // for this endpoint use the router movieRouter
 app.use("/movies", movieRouter);
